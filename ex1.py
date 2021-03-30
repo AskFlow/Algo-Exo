@@ -36,10 +36,10 @@ else:
 
 #------------------------
 
-'''
+
 
 #2.
-'''
+
 mot1 = input("premier Mot")
 mot2 = input("deuxième Mot")
 
@@ -133,9 +133,11 @@ for i in range(1,11):
     if(i == 5):
         continue
     print(i)
-'''
+
 
 #------------------------
+
+
 
 #Cours 3
 
@@ -149,3 +151,16 @@ def table(base,debut,fin,inc):
 
 
 table(10,1,8,5)
+'''
+#------------------------
+
+#2.
+
+def cube(x):
+    return x**3
+
+
+def volumesphere(r):
+    return (4*math.pi*cube(r))/3
+
+print(volumesphere(int(input('rayon'))))
